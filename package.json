@@ -1,0 +1,24 @@
+{
+  "name": "movie-max-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.3.0",
+    "restana": "^4.7.1",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^7.14.4",
+    "@types/ws": "^7.2.6",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  }
+}
